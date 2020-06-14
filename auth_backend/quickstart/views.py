@@ -9,5 +9,5 @@ def authenticate(request):
     return Response(None, status=status.HTTP_200_OK)
 
 @api_view(['POST'])
-def registrate(request):
+def register(request):
     return Response(None, status=status.HTTP_200_OK)

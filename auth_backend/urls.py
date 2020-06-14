@@ -20,5 +20,5 @@ from auth_backend.quickstart import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/authenticate", views.authenticate),
-    path("api/registrate", views.registrate),
+    path("api/register", views.register),
 ]
